@@ -12,21 +12,22 @@
 		</div>		
 		<!-- Collect the nav links, forms, and other content for toggling -->		
 		<div class="collapse navbar-collapse" id="navbar-1">		
-		<form class="navbar-form navbar-left visible-xs" role="search" action="http://okstate.summon.serialssolutions.com/">
-			<div class="form-group">
-			  <label for="exampleInputEmail1" class="sr-only">Search for Books and Articles</label>
-			  <div class="input-group">
-				  <input type="text" class="form-control" name="q" placeholder="Search for books and articles. . .">
-				  <span class="input-group-addon"><i class="fa fa-search fa-lg"></i></span>
-			  </div>
+			<form class="navbar-form navbar-left visible-xs" role="search" action="http://okstate.summon.serialssolutions.com/">
+				<div class="form-group">
+				  <label for="exampleInputEmail1" class="sr-only">Search for Books and Articles</label>
+				  <div class="input-group">
+					  <input type="text" class="form-control" name="q" placeholder="Search for books and articles. . .">
+					  <span class="input-group-addon"><i class="fa fa-search fa-lg"></i></span>
+				  </div>
+				</div>
+			</form>			
+				<div id="s-lg-tabs-container" class=" s-lib-side-borders ">
+			    <div id="s-lg-guide-tabs" class="tabs"	>
+						<ul class="nav navbar-nav navbar-left">
+							{{guide_nav}}
+						</ul>
+					</div>
 			</div>
-		</form>			
-		<div id="s-lg-tabs-container" class=" s-lib-side-borders ">
-		    <div id="s-lg-guide-tabs" class="tabs"	>
-		<ul class="nav navbar-nav navbar-left">
-		{{guide_nav}}
-		</ul>
-		</div></div>
 		</div>	
 	</nav>
 </div>
